@@ -6,13 +6,13 @@ This project focuses on modeling and predicting energy consumption using a varie
 
 ## File Structure
 
-Optim_Energy/
-├── app.py # Flask application for serving model results via API
-├── data_preprocessing.py # Data loading, preprocessing, feature engineering, and visualization
-├── model_building.py # Model training, evaluation (including LSTM), and time series cross-validation
-├── energy_consumption_data.csv # The dataset used for training and evaluation (historical energy consumption data)
-├── requirements.txt # List of Python dependencies for the project
-└── README.md # This file (project overview and setup instructions)
+├── app.py                       # Flask application for serving model results via API
+├── data_preprocessing.py        # Data loading, preprocessing, feature engineering, and visualization
+├── model_building.py            # Model training, evaluation (including LSTM), and time series cross-validation
+├── energy_consumption_data.csv  # The dataset used for training and evaluation
+├── requirements.txt             # List of Python dependencies for the project
+└── README.md                    # This file (project overview and setup instructions)
+
 
 
 ## Dependencies
