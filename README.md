@@ -113,6 +113,27 @@ The models are evaluated based on the following metrics:
 *   Mean Absolute Error (MAE)
 *   Bias
 
+## Model Selection
+
+## Model Evaluation Results
+
+The following table presents the model evaluation results, including Mean Squared Error (MSE), Mean Absolute Error (MAE), and Bias:
+
+| Model             | MSE        | MAE        | Bias       |
+| ----------------- | ---------- | ---------- | ---------- |
+| Linear Regression | 14245.34   | 104.40     | -8.63      |
+| Random Forest     | 15696.48   | 106.75     | -9.58      |
+| Gradient Boosting | 16427.58   | 109.70     | -12.03     |
+| LSTM              | 18726.25   | 109.30     | -18.30     |
+
+Base on the above results, the linear regression seems to be the best with all the lower MSE, MAE, and closeer to zero bias. 
+
+* note: MSE might be the most important metric when the project wants to avoid large errors
+        MAE might be preferred when the project want a model that's generally accurate
+        Bias is important when the project need a model that doesn't systematically over- or under-predict.
+
+
+
 ## Troubleshooting
 
 *   **ModuleNotFoundError:** Ensure that all Python dependencies are installed in your virtual environment. If you see the error, install the libraries that are missing.
