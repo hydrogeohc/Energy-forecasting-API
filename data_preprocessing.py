@@ -46,6 +46,10 @@ def engineer_features(df):
     df['month'] = df['timestamp'].dt.month
     df['is_weekend'] = df['day_of_week'].isin([5, 6]).astype(int)
     
+    # Create lag features
+    df['energy_consumption_lag1'] = df['energy_consumption'].shift(1)
+    df['energy_consumption_lag2'] = df['energy_consumption'].shift(2)  # ADDED LAG 2
+
     # Create interaction features
     df['temp_humidity_interaction'] = df['temperature'] * df['humidity']
     df['temperature_bins'] = pd.cut(df['temperature'], bins=5, labels=['Very Low', 'Low', 'Medium', 'High', 'Very High'])
