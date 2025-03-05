@@ -126,13 +126,12 @@ The following table presents the model evaluation results, including Mean Square
 | Gradient Boosting | 16427.58   | 109.70     | -12.03     |
 | LSTM              | 18726.25   | 109.30     | -18.30     |
 
-Base on the above results, the linear regression seems to be the best with all the lower MSE, MAE, and closeer to zero bias. 
+Base on the above results, the `linear regression` seems to be the best with all the lower MSE, MAE, and closeer to zero bias. 
 
-* note: MSE might be the most important metric when the project wants to avoid large errors
-        MAE might be preferred when the project want a model that's generally accurate
-        Bias is important when the project need a model that doesn't systematically over- or under-predict.
-
-
+* note:
+* MSE might be the most important metric when the project wants to avoid large errors
+* MAE might be preferred when the project want a model that's generally accurate
+* Bias is important when the project need a model that doesn't systematically over- or under-predict.
 
 ## Troubleshooting
 
