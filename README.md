@@ -6,13 +6,14 @@ This project focuses on modeling and predicting energy consumption using a varie
 
 ## File Structure
 
+```
 ├── app.py                       # Flask application for serving model results via API
 ├── data_preprocessing.py        # Data loading, preprocessing, feature engineering, and visualization
 ├── model_building.py            # Model training, evaluation (including LSTM), and time series cross-validation
 ├── energy_consumption_data.csv  # The dataset used for training and evaluation
 ├── requirements.txt             # List of Python dependencies for the project
 └── README.md                    # This file (project overview and setup instructions)
-
+```
 
 
 ## Dependencies
@@ -31,13 +32,16 @@ pip install -r requirements.txt
 
 A sample `requirements.txt` is shown below:
 
-Flask==3.1.0
+```
+flask==3.1.0
 pandas==2.2.3
 scikit-learn==1.6.1
 tensorflow==2.18.0
 numpy==2.02
 seaborn==0.13.2
 matplotlib==3.10.1
+
+```
 
 ## Usage
 
