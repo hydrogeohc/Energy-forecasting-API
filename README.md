@@ -48,8 +48,8 @@ matplotlib==3.10.1
 1.  **Clone the repository:**
 
     ```
-    git clone https://github.com/hydrogeohc/Optim_Energy
-    cd Optim_Energy
+    git clone https://github.com/hydrogeohc/Energy-forecasting-API
+    cd Energy-forecasting-API
     ```
 
 2.  **Create a virtual environment:**
